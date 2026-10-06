@@ -1,0 +1,1475 @@
+{
+  "generatedFrom": {
+    "raw": "uncleaned_response_dataset.xlsx",
+    "cleaned": "cleaned_response_dataset.xlsx",
+    "rawRows": 161,
+    "cleanRows": 159,
+    "rawColumns": 18,
+    "cleanColumns": 17
+  },
+  "overview": {
+    "respondents": 159,
+    "meanBudget": 200327.0377,
+    "meanPrice": 207553.4528,
+    "medianPrice": 210000,
+    "laptopShare": 59.12
+  },
+  "cleaning": {
+    "removedRows": 2,
+    "removedColumns": 1,
+    "rawMissingCells": 161,
+    "cleanMissingCells": 0,
+    "numericFields": [
+      "battery_life",
+      "budget",
+      "device_price",
+      "storage",
+      "lifespan",
+      "weight",
+      "ram"
+    ],
+    "steps": [
+      "Standardised survey labels for analysis fields",
+      "Extracted numeric values and aligned measurement units",
+      "Normalised categorical response labels",
+      "Removed the empty survey column and incomplete records"
+    ],
+    "caveat": "Abbreviated price entries and ambiguous categorical responses remain documented data-quality assumptions."
+  },
+  "descriptive": {
+    "summary": [
+      {
+        "variable": "Battery Life",
+        "count": 159,
+        "mean": 9.044,
+        "median": 8,
+        "std": 4.9508,
+        "min": 2,
+        "max": 24
+      },
+      {
+        "variable": "Budget",
+        "count": 159,
+        "mean": 200327.0377,
+        "median": 200000,
+        "std": 105846.1133,
+        "min": 20000,
+        "max": 500000
+      },
+      {
+        "variable": "Device Price",
+        "count": 159,
+        "mean": 207553.4528,
+        "median": 210000,
+        "std": 107965.8722,
+        "min": 20000,
+        "max": 600000
+      },
+      {
+        "variable": "Storage",
+        "count": 159,
+        "mean": 490.9182,
+        "median": 512,
+        "std": 366.4341,
+        "min": 8,
+        "max": 2048
+      },
+      {
+        "variable": "Lifespan",
+        "count": 159,
+        "mean": 3.7547,
+        "median": 4,
+        "std": 1.0657,
+        "min": 2,
+        "max": 10
+      },
+      {
+        "variable": "Weight",
+        "count": 159,
+        "mean": 1461.5723,
+        "median": 1500,
+        "std": 918.8852,
+        "min": 140,
+        "max": 3000
+      },
+      {
+        "variable": "Ram",
+        "count": 159,
+        "mean": 11.4843,
+        "median": 8,
+        "std": 6.5766,
+        "min": 2,
+        "max": 32
+      }
+    ],
+    "categories": {
+      "device_type": [
+        {
+          "label": "Laptop / Desktop Computer",
+          "count": 94,
+          "percentage": 59.12
+        },
+        {
+          "label": "Mobile Phone",
+          "count": 51,
+          "percentage": 32.08
+        },
+        {
+          "label": "Tablet",
+          "count": 14,
+          "percentage": 8.81
+        }
+      ],
+      "brand_name": [
+        {
+          "label": "Asus",
+          "count": 33,
+          "percentage": 20.75
+        },
+        {
+          "label": "Samsung",
+          "count": 27,
+          "percentage": 16.98
+        },
+        {
+          "label": "Apple",
+          "count": 24,
+          "percentage": 15.09
+        },
+        {
+          "label": "Hp",
+          "count": 19,
+          "percentage": 11.95
+        },
+        {
+          "label": "Lenovo",
+          "count": 15,
+          "percentage": 9.43
+        },
+        {
+          "label": "Msi",
+          "count": 13,
+          "percentage": 8.18
+        },
+        {
+          "label": "Acer",
+          "count": 9,
+          "percentage": 5.66
+        },
+        {
+          "label": "Dell",
+          "count": 9,
+          "percentage": 5.66
+        },
+        {
+          "label": "Redmi",
+          "count": 4,
+          "percentage": 2.52
+        },
+        {
+          "label": "Vivo",
+          "count": 2,
+          "percentage": 1.26
+        },
+        {
+          "label": "Honor",
+          "count": 1,
+          "percentage": 0.63
+        },
+        {
+          "label": "Android",
+          "count": 1,
+          "percentage": 0.63
+        },
+        {
+          "label": "Huawei",
+          "count": 1,
+          "percentage": 0.63
+        },
+        {
+          "label": "Microsoft",
+          "count": 1,
+          "percentage": 0.63
+        }
+      ],
+      "primary_influence": [
+        {
+          "label": "Performance",
+          "count": 98,
+          "percentage": 61.64
+        },
+        {
+          "label": "Price",
+          "count": 16,
+          "percentage": 10.06
+        },
+        {
+          "label": "Brand Reputation",
+          "count": 12,
+          "percentage": 7.55
+        },
+        {
+          "label": "Battery Life",
+          "count": 10,
+          "percentage": 6.29
+        },
+        {
+          "label": "Storage Capacity",
+          "count": 8,
+          "percentage": 5.03
+        },
+        {
+          "label": "Portability",
+          "count": 6,
+          "percentage": 3.77
+        },
+        {
+          "label": "Recommendation From A Friend",
+          "count": 5,
+          "percentage": 3.14
+        },
+        {
+          "label": "Design",
+          "count": 4,
+          "percentage": 2.52
+        }
+      ],
+      "satisfaction": [
+        {
+          "label": "5",
+          "count": 79,
+          "percentage": 49.69
+        },
+        {
+          "label": "4",
+          "count": 57,
+          "percentage": 35.85
+        },
+        {
+          "label": "3",
+          "count": 15,
+          "percentage": 9.43
+        },
+        {
+          "label": "1",
+          "count": 5,
+          "percentage": 3.14
+        },
+        {
+          "label": "2",
+          "count": 3,
+          "percentage": 1.89
+        }
+      ],
+      "chosen_method": [
+        {
+          "label": "Personal Research",
+          "count": 79,
+          "percentage": 49.69
+        },
+        {
+          "label": "Family Recommendation",
+          "count": 24,
+          "percentage": 15.09
+        },
+        {
+          "label": "Friend Recommendation",
+          "count": 21,
+          "percentage": 13.21
+        },
+        {
+          "label": "Social Media Reviews",
+          "count": 18,
+          "percentage": 11.32
+        },
+        {
+          "label": "Salesperson Recommendation",
+          "count": 7,
+          "percentage": 4.4
+        },
+        {
+          "label": "Online Reviews",
+          "count": 7,
+          "percentage": 4.4
+        },
+        {
+          "label": "Gifted",
+          "count": 1,
+          "percentage": 0.63
+        },
+        {
+          "label": "Its Speed What I Wanted",
+          "count": 1,
+          "percentage": 0.63
+        },
+        {
+          "label": "It Has A Privacy Protector",
+          "count": 1,
+          "percentage": 0.63
+        }
+      ]
+    },
+    "priceHistogram": [
+      {
+        "range": "20k–93k",
+        "count": 26
+      },
+      {
+        "range": "93k–165k",
+        "count": 27
+      },
+      {
+        "range": "165k–238k",
+        "count": 43
+      },
+      {
+        "range": "238k–310k",
+        "count": 41
+      },
+      {
+        "range": "310k–383k",
+        "count": 12
+      },
+      {
+        "range": "383k–455k",
+        "count": 8
+      },
+      {
+        "range": "455k–528k",
+        "count": 1
+      },
+      {
+        "range": "528k–600k",
+        "count": 1
+      }
+    ],
+    "budgetVsPrice": [
+      {
+        "budget": 500000,
+        "device_price": 485000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 350000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 500000,
+        "device_price": 600000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 235000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 250000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 160000,
+        "device_price": 170000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 250000,
+        "device_price": 250000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 121000,
+        "device_price": 150000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 120000,
+        "device_price": 150000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 70000,
+        "device_price": 70000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 119999,
+        "device_price": 119999,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 400000,
+        "device_price": 420000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 30000,
+        "device_price": 300000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 260000,
+        "device_price": 263000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 230000,
+        "device_price": 230000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 100000,
+        "device_price": 180000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 220000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 220000,
+        "device_price": 186000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 100000,
+        "device_price": 120000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 240000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 50000,
+        "device_price": 47000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 290000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 280000,
+        "device_price": 275000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 100000,
+        "device_price": 150000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 280000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 130000,
+        "device_price": 134000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 180000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 30000,
+        "device_price": 32000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 350000,
+        "device_price": 395000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 120000,
+        "device_price": 120000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 175000,
+        "device_price": 100000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 60000,
+        "device_price": 50000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 310000,
+        "device_price": 310000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 140000,
+        "device_price": 140000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 249000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 50000,
+        "device_price": 54000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 185000,
+        "device_price": 185000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 208000,
+        "device_price": 200000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 260000,
+        "device_price": 260000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 198000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 50000,
+        "device_price": 45000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 35000,
+        "device_price": 50000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 130000,
+        "device_price": 120000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 300000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 300000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 350000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 320000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 80000,
+        "device_price": 75000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 185000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 165000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 210000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 350000,
+        "device_price": 340000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 180000,
+        "device_price": 180000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 400000,
+        "device_price": 409000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 225000,
+        "device_price": 220000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 300000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 75000,
+        "device_price": 130000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 350000,
+        "device_price": 300000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 280000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 150000,
+        "device_price": 150000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 400000,
+        "device_price": 450000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 120000,
+        "device_price": 130000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 230000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 40000,
+        "device_price": 42000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 80000,
+        "device_price": 75000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 270000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 320000,
+        "device_price": 350000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 140000,
+        "device_price": 140000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 180000,
+        "device_price": 180000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 300000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 180000,
+        "device_price": 178000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 50000,
+        "device_price": 50000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 225000,
+        "device_price": 225000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 298000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 150000,
+        "device_price": 150000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 150000,
+        "device_price": 180000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 260000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 100000,
+        "device_price": 400000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 100000,
+        "device_price": 200000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 180000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 300000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 180000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 150000,
+        "device_price": 181000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 60000,
+        "device_price": 60000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 285000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 230000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 100000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 134000,
+        "device_price": 134000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 270000,
+        "device_price": 270000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 215000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 110000,
+        "device_price": 110000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 50000,
+        "device_price": 50000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 250000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 230000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 60000,
+        "device_price": 50000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 264000,
+        "device_price": 250000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 279000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 320000,
+        "device_price": 320000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 45000,
+        "device_price": 48000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 270000,
+        "device_price": 270000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 180000,
+        "device_price": 170000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 190000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 170000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 82000,
+        "device_price": 85000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 150000,
+        "device_price": 150000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 400000,
+        "device_price": 380000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 30000,
+        "device_price": 29000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 220000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 170000,
+        "device_price": 200000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 210000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 80000,
+        "device_price": 125000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 150000,
+        "device_price": 300000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 350000,
+        "device_price": 340000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 218000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 45000,
+        "device_price": 40000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 50000,
+        "device_price": 50000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 250000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 156000,
+        "device_price": 165000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 80000,
+        "device_price": 65000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 150000,
+        "device_price": 150000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 250000,
+        "device_price": 240000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 40000,
+        "device_price": 40000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 26000,
+        "device_price": 32000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 200000,
+        "device_price": 20000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 150000,
+        "device_price": 150000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 210000,
+        "device_price": 210000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 60000,
+        "device_price": 60000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 450000,
+        "device_price": 450000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 200000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 180000,
+        "device_price": 245000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 230000,
+        "device_price": 230000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 250000,
+        "device_price": 210000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 215000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 90000,
+        "device_price": 130000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 20000,
+        "device_price": 20000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 150000,
+        "device_price": 200000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 450000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 200000,
+        "device_price": 200000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 300000,
+        "device_price": 315000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 282000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 180000,
+        "device_price": 163000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 500000,
+        "device_price": 430000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 100000,
+        "device_price": 115000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 250000,
+        "device_price": 234000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 85000,
+        "device_price": 95000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 240000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 300000,
+        "device_price": 245000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 220000,
+        "device_price": 210000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 100000,
+        "device_price": 120000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 256000,
+        "device_price": 256000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 50000,
+        "device_price": 60000,
+        "deviceType": "Mobile Phone"
+      },
+      {
+        "budget": 250000,
+        "device_price": 250000,
+        "deviceType": "Laptop / Desktop Computer"
+      },
+      {
+        "budget": 400000,
+        "device_price": 370000,
+        "deviceType": "Tablet"
+      },
+      {
+        "budget": 400000,
+        "device_price": 350000,
+        "deviceType": "Mobile Phone"
+      }
+    ]
+  },
+  "regression": {
+    "trainingRows": 111,
+    "testRows": 48,
+    "predictors": 6,
+    "selectedModel": "Linear Regression",
+    "models": [
+      {
+        "model": "Linear Regression",
+        "cvRmse": 47324.57,
+        "cvMae": null,
+        "cvR2": null,
+        "mae": 28703.32,
+        "rmse": 45877.36,
+        "r2": 0.792
+      },
+      {
+        "model": "Ridge Regression",
+        "cvRmse": 47718.23,
+        "cvMae": null,
+        "cvR2": null,
+        "mae": 30757.49,
+        "rmse": 46934.9,
+        "r2": 0.782
+      },
+      {
+        "model": "Random Forest",
+        "cvRmse": 93316.74,
+        "cvMae": null,
+        "cvR2": null,
+        "mae": 71622.6,
+        "rmse": 89401.09,
+        "r2": 0.209
+      },
+      {
+        "model": "Training-mean benchmark",
+        "cvRmse": null,
+        "cvMae": null,
+        "cvR2": null,
+        "mae": 85556.14,
+        "rmse": 104118.65,
+        "r2": -0.072
+      }
+    ],
+    "diagnostics": [
+      {
+        "actual": 32000,
+        "predicted": 55302.5314,
+        "residual": -23302.5314
+      },
+      {
+        "actual": 119999,
+        "predicted": 124518.9571,
+        "residual": -4519.9571
+      },
+      {
+        "actual": 50000,
+        "predicted": 59683.6091,
+        "residual": -9683.6091
+      },
+      {
+        "actual": 180000,
+        "predicted": 168683.2473,
+        "residual": 11316.7527
+      },
+      {
+        "actual": 165000,
+        "predicted": 200448.9056,
+        "residual": -35448.9056
+      },
+      {
+        "actual": 250000,
+        "predicted": 259031.9635,
+        "residual": -9031.9635
+      },
+      {
+        "actual": 350000,
+        "predicted": 365577.6756,
+        "residual": -15577.6756
+      },
+      {
+        "actual": 170000,
+        "predicted": 234530.7106,
+        "residual": -64530.7106
+      },
+      {
+        "actual": 240000,
+        "predicted": 258715.4657,
+        "residual": -18715.4657
+      },
+      {
+        "actual": 245000,
+        "predicted": 293333.7101,
+        "residual": -48333.7101
+      },
+      {
+        "actual": 300000,
+        "predicted": 246057.0494,
+        "residual": 53942.9506
+      },
+      {
+        "actual": 298000,
+        "predicted": 314053.0927,
+        "residual": -16053.0927
+      },
+      {
+        "actual": 260000,
+        "predicted": 266583.182,
+        "residual": -6583.182
+      },
+      {
+        "actual": 180000,
+        "predicted": 225655.8576,
+        "residual": -45655.8576
+      },
+      {
+        "actual": 180000,
+        "predicted": 133311.0236,
+        "residual": 46688.9764
+      },
+      {
+        "actual": 186000,
+        "predicted": 228947.0233,
+        "residual": -42947.0233
+      },
+      {
+        "actual": 140000,
+        "predicted": 151348.77,
+        "residual": -11348.77
+      },
+      {
+        "actual": 85000,
+        "predicted": 86828.1165,
+        "residual": -1828.1165
+      },
+      {
+        "actual": 245000,
+        "predicted": 219830.3149,
+        "residual": 25169.6851
+      },
+      {
+        "actual": 350000,
+        "predicted": 310466.6284,
+        "residual": 39533.3716
+      },
+      {
+        "actual": 300000,
+        "predicted": 164690.7514,
+        "residual": 135309.2486
+      },
+      {
+        "actual": 234000,
+        "predicted": 268503.9336,
+        "residual": -34503.9336
+      },
+      {
+        "actual": 210000,
+        "predicted": 197561.8252,
+        "residual": 12438.1748
+      },
+      {
+        "actual": 100000,
+        "predicted": 206265.8042,
+        "residual": -106265.8042
+      },
+      {
+        "actual": 250000,
+        "predicted": 247674.9423,
+        "residual": 2325.0577
+      },
+      {
+        "actual": 40000,
+        "predicted": 58579.1212,
+        "residual": -18579.1212
+      },
+      {
+        "actual": 70000,
+        "predicted": 76256.6764,
+        "residual": -6256.6764
+      },
+      {
+        "actual": 20000,
+        "predicted": 45470.8614,
+        "residual": -25470.8614
+      },
+      {
+        "actual": 250000,
+        "predicted": 209386.0611,
+        "residual": 40613.9389
+      },
+      {
+        "actual": 140000,
+        "predicted": 149397.289,
+        "residual": -9397.289
+      },
+      {
+        "actual": 50000,
+        "predicted": 70134.1663,
+        "residual": -20134.1663
+      },
+      {
+        "actual": 256000,
+        "predicted": 253906.5659,
+        "residual": 2093.4341
+      },
+      {
+        "actual": 180000,
+        "predicted": 173355.0411,
+        "residual": 6644.9589
+      },
+      {
+        "actual": 210000,
+        "predicted": 232267.0895,
+        "residual": -22267.0895
+      },
+      {
+        "actual": 370000,
+        "predicted": 369632.884,
+        "residual": 367.116
+      },
+      {
+        "actual": 32000,
+        "predicted": 61523.568,
+        "residual": -29523.568
+      },
+      {
+        "actual": 20000,
+        "predicted": 222132.8133,
+        "residual": -202132.8133
+      },
+      {
+        "actual": 180000,
+        "predicted": 183131.1328,
+        "residual": -3131.1328
+      },
+      {
+        "actual": 409000,
+        "predicted": 385602.1973,
+        "residual": 23397.8027
+      },
+      {
+        "actual": 181000,
+        "predicted": 167130.4674,
+        "residual": 13869.5326
+      },
+      {
+        "actual": 170000,
+        "predicted": 163512.2506,
+        "residual": 6487.7494
+      },
+      {
+        "actual": 263000,
+        "predicted": 262455.5707,
+        "residual": 544.4293
+      },
+      {
+        "actual": 42000,
+        "predicted": 60530.6022,
+        "residual": -18530.6022
+      },
+      {
+        "actual": 300000,
+        "predicted": 307539.4068,
+        "residual": -7539.4068
+      },
+      {
+        "actual": 300000,
+        "predicted": 280949.1127,
+        "residual": 19050.8873
+      },
+      {
+        "actual": 130000,
+        "predicted": 104590.2272,
+        "residual": 25409.7728
+      },
+      {
+        "actual": 75000,
+        "predicted": 106670.6223,
+        "residual": -31670.6223
+      },
+      {
+        "actual": 249000,
+        "predicted": 272591.7378,
+        "residual": -23591.7378
+      }
+    ]
+  },
+  "inferential": {
+    "alpha": 0.05,
+    "tests": [
+      {
+        "question": "Do actual device prices differ from allocated budgets?",
+        "test": "Paired t-test",
+        "null": "μ difference = 0",
+        "alternative": "μ difference ≠ 0",
+        "sampleSize": 159,
+        "meanBudget": 200327.0377,
+        "meanPrice": 207553.4528,
+        "meanDifference": 7226.4151,
+        "statisticLabel": "t",
+        "statistic": 1.8706,
+        "pValue": 0.0614,
+        "decision": "Fail to reject H₀"
+      },
+      {
+        "question": "Do more than 50% of respondents prefer Laptop/Desktop computers?",
+        "test": "One-sample proportion z-test",
+        "null": "p = 0.50",
+        "alternative": "p > 0.50",
+        "sampleSize": 159,
+        "successes": 94,
+        "proportion": 0.5912,
+        "statisticLabel": "Z",
+        "statistic": 2.2998,
+        "pValue": 0.0107,
+        "decision": "Reject H₀"
+      },
+      {
+        "question": "Did more than 50% research for over one week?",
+        "test": "One-sample proportion z-test",
+        "null": "p = 0.50",
+        "alternative": "p > 0.50",
+        "sampleSize": 159,
+        "successes": 56,
+        "proportion": 0.3522,
+        "statisticLabel": "Z",
+        "statistic": -3.7273,
+        "pValue": 0.9999,
+        "decision": "Fail to reject H₀"
+      }
+    ]
+  }
+}
