@@ -3,7 +3,11 @@ import path from "node:path";
 import XLSX from "xlsx";
 
 const root = path.resolve(import.meta.dirname, "..");
-const dataRoot = path.resolve(root, "..", "SDI_Assignment", "datasets");
+const bundledDataRoot = path.join(root, "datasets");
+const legacyDataRoot = path.resolve(root, "..", "SDI_Assignment", "datasets");
+// Vercel builds only the dashboard project, so the portable copy is preferred.
+// The sibling path keeps existing local checkouts working during the transition.
+const dataRoot = fs.existsSync(bundledDataRoot) ? bundledDataRoot : legacyDataRoot;
 const rawFile = process.env.RAW_DATASET ?? path.join(dataRoot, "uncleaned_response_dataset.xlsx");
 const cleanFile = process.env.CLEAN_DATASET ?? path.join(dataRoot, "cleaned_response_dataset.xlsx");
 const outputFile = path.join(root, "public", "data", "dashboard.json");
